@@ -21,13 +21,10 @@ public WebDriver driver;
 		 driver.get("http://49.204.72.13:100");
 		 LogInPage login=new LogInPage(driver);
 		 login.loginToApplication();
-		 
-		 
-		 
 	}
 	@AfterMethod
 	public  void clossChrome() {
-		driver.quit();
+		//driver.quit();
 	}
 		
 }

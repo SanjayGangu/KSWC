@@ -31,8 +31,6 @@ public class LogInPage {
 	public LogInPage(WebDriver driver) {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
-		
-		
 	}
 	public void loginToApplication() throws Throwable {
 		//Assert.assertEquals(loginPageTitle.getText(),"Integrated Inventory Management System");
